@@ -104,15 +104,15 @@ fill(0, 102, 153);
 		}
 
 		if (left == 0) {
-			image(left1, (width / 1.8), 280, (height / 6), 100 );
+			image(left1, (width / .0008), 280, (height / 6), 100 );
 			}
 			
 			if (left == 1) {
-			image(left2, (width / 1.8), 280, (height / 6), 100);
+			image(left2, (width / .0008), 280, (height / 6), 100);
 			}
 			
 			if (left == 2) {
-			image(left3, (width / 1.8), 280, (height / 6), 100);
+			image(left3, (width / .0008), 280, (height / 6), 100);
 			}
 
 	if (eyes == 0) {
