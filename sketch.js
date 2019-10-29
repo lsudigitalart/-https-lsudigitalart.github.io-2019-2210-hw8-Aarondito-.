@@ -7,7 +7,7 @@
     var mouth1, mouth2, mouth3, mouth4;
     var right1, right2, right3;
 	var show = 0;
-	var leftearChoice, eyesChoice, mouthChoice, rightChoice, noseChoice, headChoice;
+	var leftChoice, eyesChoice, mouthChoice, rightChoice, noseChoice, headChoice;
 	
 	function preload() {
 	nose1 = loadImage("nose/1.jpg");
@@ -53,7 +53,8 @@ fill(0, 102, 153);
 	
 	
 	if (show == 1) {
-	creature(100, 50, leftChoice, eyesChoice, mouthChoice, rightChoice, noseChoice, headChoice);
+		creature(mouthChoice, leftChoice, headChoice, eyesChoice, noseChoice, rightChoice);
+
 	}
 	
 	}
@@ -103,15 +104,15 @@ fill(0, 102, 153);
 		}
 
 		if (left == 0) {
-			image(left1, (width / .4), 280, (height / 6), 100);
+			image(left1, (width / 1), 280, (height / 6), 100);
 			}
 			
 			if (left == 1) {
-			image(left2, (width / .4), 280, (height / 6), 100);
+			image(left2, (width / 1), 280, (height / 6), 100);
 			}
 			
 			if (left == 2) {
-			image(left3, (width / .4), 280, (height / 6), 100);
+			image(left3, (width / 1), 280, (height / 6), 100);
 			}
 
 	if (eyes == 0) {
@@ -153,7 +154,7 @@ fill(0, 102, 153);
 		}
 
 		if (mouth == 0) {
-			image(mouth1, (width / 2.8), 450, (height / 3), );
+			image(mouth1, (width / 2.8), 450, (height / 3),100 );
 			}
 			
 			if (mouth == 1) {
