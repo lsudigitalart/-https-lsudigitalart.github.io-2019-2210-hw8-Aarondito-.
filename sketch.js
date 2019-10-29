@@ -104,7 +104,7 @@ fill(0, 102, 153);
 		}
 
 		if (left == 0) {
-			image(left1, (width / 1.8), 140, (height / 6), 50 );
+			image(left1, (width / 1.8), 280, (height / 6), 100 );
 			}
 			
 			if (left == 1) {
